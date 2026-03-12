@@ -2,8 +2,15 @@ REST API Application
 
 This project will feature:
 * Docker
+    * containerize each service
 * Apache Kafka
+    * backend backbone
+* websockets
+    * frontend connectivity
 * Flask
+    * web framework
+# Postman
+    * development and testing facility
 
 Other things to look into:
 * Docker nginx
