@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2debfdd-678d-47ef-9081-c4397bd37b99" name="Changes" comment="feat: added docker, flask, and apache kafka. next needs confluent_kafka import resolution.&#10;doc: added notes and fixed requirements.txt file">
-      <change afterPath="$PROJECT_DIR$/src/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consumer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/producer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server.py" afterDir="false" />
+    <list default="true" id="e2debfdd-678d-47ef-9081-c4397bd37b99" name="Changes" comment="feat: Added kafka, websocket, mongodb database files and containers.&#10;doc: Added basic documentation. Requirements.txt error persists.">
+      <change beforePath="$PROJECT_DIR$/.idea/data_ingestion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_ingestion.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/Notes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +71,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -124,11 +120,31 @@
       <option name="project" value="LOCAL" />
       <updated>1773273544055</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: Added kafka, websocket, mongodb database files and containers.&#10;doc: Added basic documentation. Requirements.txt error persists.">
+      <option name="closed" value="true" />
+      <created>1773358309800</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1773358309800</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: added docker, flask, and apache kafka. next needs confluent_kafka import resolution.&#10;doc: added notes and fixed requirements.txt file" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: added docker, flask, and apache kafka. next needs confluent_kafka import resolution.&#10;doc: added notes and fixed requirements.txt file" />
+    <MESSAGE value="feat: Added kafka, websocket, mongodb database files and containers.&#10;doc: Added basic documentation. Requirements.txt error persists." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Added kafka, websocket, mongodb database files and containers.&#10;doc: Added basic documentation. Requirements.txt error persists." />
   </component>
 </project>

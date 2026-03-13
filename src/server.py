@@ -6,16 +6,13 @@
 import asyncio
 from websockets.asyncio.server import serve
 
-async def hello(websocket):
-    name = await websocket.recv()
-    print(f"<<< {name}")
-
-    greeting = f"Hello, {name}!"
-    await websocket.send(greeting)
-    print(f">>> {greeting}")
+async def handler(websocket):
+    while True:
+        message = await websocket.recv()
+        print(message)
 
 async def main():
-    async with serve(hello, "0.0.0.0", 8765) as server:
+    async with serve(handler, "localhost", 8765):
         await server.serve_forever()
 
 if __name__ == "__main__":

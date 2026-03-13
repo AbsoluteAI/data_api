@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="data_ingestion" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="data_ingestion_env" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="data_ingestion" project-jdk-type="Python SDK" />
 </project>
