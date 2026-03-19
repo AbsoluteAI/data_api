@@ -42,4 +42,4 @@ COPY . .
 EXPOSE 8000
 
 # Run the application.
-CMD ["python", "src/app.py", "src/server.py", "src/database.py", "src/client.py"]
+CMD ["python", "src/app.py", "src/sse.py", "src/database.py", "src/gridstatus_pyclient.py"]

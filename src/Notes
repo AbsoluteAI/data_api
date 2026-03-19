@@ -5,8 +5,8 @@ This project will feature:
     * containerize each service
 * Apache Kafka
     * backend backbone
-* websockets
-    * frontend connectivity
+* SSE
+    * server sent events to retrieve data
 * Flask
     * web framework
 # Postman
@@ -15,3 +15,7 @@ This project will feature:
 Other things to look into:
 * Docker nginx
 * Reverse Proxy
+
+* Mongo Login Credentials
+    * Username: admin
+    * Password: pass

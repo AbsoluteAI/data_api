@@ -38,16 +38,6 @@ services:
     environment:
       KAFKA_BOOTSTRAP_SERVERS: kafka:9093 # Use the service name and internal port for inter-container communication
 
-  ws-server:
-    build: .
-    ports:
-      - "8765:8765"
-    command: python src/server.py
-    volumes:
-      - .:/app
-    working_dir: /app
-    restart: unless-stopped
-
   mongodb:
     image: mongo:latest
     container_name: mongodb
